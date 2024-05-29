@@ -1,7 +1,9 @@
 from flask import render_template
+from flask import redirect, url_for, session
 
 def index():
     return render_template('index.html')
+
 
 def about():
     return render_template('about.html')
